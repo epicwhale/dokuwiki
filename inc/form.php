@@ -193,7 +193,7 @@ class Doku_Form {
      * Gets the position of the element with an ID attribute.
      *
      * @param   string  $id     ID of the element to find.
-     * @return  array   pseudo-element if found, false otherwise
+     * @return  int|boolean   position of element if found, false otherwise
      * @author  Tom N Harris <tnharris@whoopdedo.org>
      */
     function findElementById($id) {
